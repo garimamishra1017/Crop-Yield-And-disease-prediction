@@ -2,7 +2,7 @@
 Overview  
 This project integrates machine learning and deep learning techniques to assist farmers in predicting crop yield and detecting plant diseases. It combines synthetic datasets, NDVI satellite imagery preprocessing, CNN‑based disease detection, and a Streamlit dashboard for user interaction.
 
-Key Features
+#Key Features
 
 Synthetic dataset generator for weather, soil, and yield data.
 
@@ -14,7 +14,7 @@ Gradient Boosting Regressor for yield forecasting based on rainfall, temperature
 
 Streamlit dashboard with ngrok integration for real‑time predictions.
 
-Installation  
+#Installation  
 Clone the repository and install dependencies:
 
 bash
@@ -23,7 +23,7 @@ cd crop-yield-disease-prediction
 pip install -r requirements.txt
 Dependencies include PyTorch, Torchvision, Scikit‑learn, Pandas, Rasterio, Streamlit, Pyngrok, and Joblib.
 
-Usage
+#Usage
 
 Generate synthetic dataset using generate_dataset.py.
 
@@ -33,7 +33,7 @@ Train yield forecasting model using train_yield.py.
 
 Launch the dashboard with streamlit run dashboard.py and access via ngrok public URL.
 
-Workflow  
+#Workflow  
 The workflow follows five steps:
 (i) Synthetic dataset creation,
 (ii) NDVI preprocessing,
@@ -41,7 +41,7 @@ The workflow follows five steps:
 (iv) Gradient Boosting for yield forecasting,
 (v) Streamlit dashboard deployment.
 
-Project Structure
+#Project Structure
 
 Code
 ├── generate_dataset.py       # Synthetic dataset generator
@@ -52,11 +52,9 @@ Code
 ├── crop_yield.csv            # Sample dataset
 ├── requirements.txt          # Dependencies
 └── README.md                 # Documentation
-Future Scope  
+#Future Scope  
 Planned improvements include expanding disease classification to multiple categories, integrating real‑time weather APIs, and deploying models on cloud platforms for scalability.
 
-Contributing  
+#Contributing  
 Contributions are welcome. Please open an issue before submitting a pull request to discuss proposed changes.
 
-License  
-This project is licensed under the MIT License.
